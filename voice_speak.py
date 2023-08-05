@@ -19,7 +19,7 @@ def voice_speak(text):
 
     def stop_reading(text): 
         # Sleeping for a second
-        time.sleep(max(len(text) / 20.0 - 1, 0)  )
+        time.sleep(max(len(text) / 20.0 - 1, 0))
         # Stopping voice early
         voice_engine.stop()
 
